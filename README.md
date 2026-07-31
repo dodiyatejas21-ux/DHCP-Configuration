@@ -35,16 +35,18 @@ After connecting the devices, verify that all links turn green, indicating succe
 
 ## Step 3: Enter Configuration Mode
 Open the router CLI and enter privileged mode, then enter global configuration mode.
+
 Commands:
-Router> en
-Router# config t
-Router(config)#
-Example:
-Router> en
-Router# config t
-Enter configuration commands, one per line. End with CNTL/Z.
-Router(config)#
-After entering global configuration mode, the router is ready for DHCP configuration.
+* Router> en
+* Router# config t
+* Router(config)#
+
+ ## Example:
+* Router> en
+* Router# config t
+* Enter configuration commands, one per line. End with CNTL/Z.
+* Router(config)#
+* After entering global configuration mode, the router is ready for DHCP configuration.
 
  <img width="940" height="139" alt="image" src="https://github.com/user-attachments/assets/e59ec5b0-0555-4b76-84d5-72a033537813" />
  
