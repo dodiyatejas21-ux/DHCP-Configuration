@@ -118,11 +118,11 @@ After configuring DHCP on the router, configure PC0 to obtain an IP address auto
 ## Example:
 DHCP request successful.
 
-IPv4 Address:      192.168.1.2
-Subnet Mask:       255.255.255.0
-Default Gateway:   192.168.1.1
-DNS Server:        0.0.0.0
-The DHCP request is successful, and PC0 automatically receives the IP address 192.168.1.2 from the router DHCP pool.
+* IPv4 Address:      192.168.1.2
+* Subnet Mask:       255.255.255.0
+* Default Gateway:   192.168.1.1
+* DNS Server:        0.0.0.0
+* The DHCP request is successful, and PC0 automatically receives the IP address 192.168.1.2 from the router DHCP pool.
 
 <img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/3dad89b6-a763-49dc-847d-910e23eb7e99" />
 <img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/ae230ef5-4ada-472d-af3c-fae547d889b7" />
