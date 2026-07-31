@@ -45,8 +45,9 @@ Router# config t
 Enter configuration commands, one per line. End with CNTL/Z.
 Router(config)#
 After entering global configuration mode, the router is ready for DHCP configuration.
-# Image referece from word file with diagram reference No4
-<img width="780" height="767" alt="Screenshot 2026-07-30 190039" src="https://github.com/user-attachments/assets/be90882e-33cb-4e10-b2e2-130591a555e0" />
+
+ <img width="940" height="139" alt="image" src="https://github.com/user-attachments/assets/e59ec5b0-0555-4b76-84d5-72a033537813" />
+ 
 
 
 
