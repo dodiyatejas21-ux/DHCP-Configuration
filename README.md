@@ -72,7 +72,23 @@ Command:
 
 <img width="921" height="221" alt="image" src="https://github.com/user-attachments/assets/9f9d5ecd-80df-4a25-9844-58a2234360ba" />
 
-## Step 5: Create a DHCP Pool
+## Step 5: Activate the Router Interface
+After assigning the IP address, enable the FastEthernet0/0 interface using the no shutdown command.
+
+Command:
+* Router(config-if)# no shutdown
+## Example:
+* Router(config-if)# no shutdown
+
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+* The FastEthernet0/0 interface becomes active (up), and the connection between the PT-Router and PT-Switch is successfully established.
+
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/ddec91d7-8d84-4a87-98c2-dbbb5a7d56d5" />
+
+
+
+## Step 6: Create a DHCP Pool
 Create a DHCP pool named tejaspool.
 
 Commands:
@@ -90,5 +106,28 @@ Commands:
 * This DHCP pool will automatically assign IP addresses to client PCs.
 
 <img width="940" height="174" alt="image" src="https://github.com/user-attachments/assets/5677b53a-0146-4aaf-a392-47fee43d80f7" />
+
+## Step 7: Configure PC0 Using DHCP
+
+After configuring DHCP on the router, configure PC0 to obtain an IP address automatically.
+1.	Click on PC0.
+2.	Open the Desktop tab.
+3.	Click IP Configuration.
+4.	Select DHCP.
+
+## Example:
+DHCP request successful.
+
+IPv4 Address:      192.168.1.2
+Subnet Mask:       255.255.255.0
+Default Gateway:   192.168.1.1
+DNS Server:        0.0.0.0
+The DHCP request is successful, and PC0 automatically receives the IP address 192.168.1.2 from the router DHCP pool.
+
+<img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/3dad89b6-a763-49dc-847d-910e23eb7e99" />
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/ae230ef5-4ada-472d-af3c-fae547d889b7" />
+
+
+
 
 
