@@ -172,3 +172,7 @@ The DHCP configuration was successfully implemented in Cisco Packet Tracer using
 
 ## Conclusion
 The DHCP server was successfully configured on the PT-Router in Cisco Packet Tracer. All client devices obtained IP addresses automatically, confirming that the DHCP configuration and network connectivity were working correctly. This project demonstrated how DHCP simplifies network configuration by automatically assigning IP addresses to client devices.
+
+## Regards
+## Tejas Dodiya
+## Cyber Security Student
